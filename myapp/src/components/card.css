@@ -1,0 +1,145 @@
+.containera {
+    display: grid;
+    grid-template-columns:30em 30em 30em  ;
+	
+  }
+.card {
+	background-color: white;
+	color: #272727;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px;
+	border-color:purple;
+	border-style: solid;
+    width: 22em;
+    text-align: start;
+    margin: 1em;
+    box-shadow: rgba(48, 6, 6, 0.56) 0px 6px 15px 4px;
+	
+}
+.card:hover {
+    animation-name:rotate;
+    animation-duration: 0.9s;
+    animation-direction:alternate-reverse;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.card:hover{
+	box-shadow: rgba(147, 144, 144, 0.56) 0px 6px 15px 4px;
+	
+}
+.sea{
+	margin-left: 500px;
+}
+.marquee{
+	background-color: rgba(131, 234, 200, 0.422);
+	
+}
+.card-header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+
+}
+
+.profile {
+	width: 2.5rem;
+	height: 2.5rem;
+	background-color: rgb(248, 131, 110);
+	border-radius: 50%;
+	margin: 10px;
+	font-size: 20pt;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	justify-content: center;
+}
+
+.letter {
+	vertical-align: middle;
+}
+
+.card-title-group {
+	justify-content: center;
+}
+
+.card-title {
+	flex: 0.5;
+	font-size: large;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.card-:hover {
+	color:aqua; /* Change text color on hover */
+  }
+.card-date {
+	flex: 0.3;
+	font-size: small;
+	margin-top: 0;
+}
+	.card-date:hover {
+		color:green; /* Change text color on hover */
+	  }
+.processor:hover{
+	color:green; /* Change text color on hover */
+}
+
+.card-image {
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.card-like-icon {
+	height: 25px;
+}
+
+.card-text {
+	width: 350px;
+	font-size: large;
+	font-weight: bolder;
+
+}
+
+.card-like-bar {
+	/* display: flex; */
+	align-items: center;
+	margin-top: 20px;
+	justify-content: space-between;
+	
+}
+.card-like-bar:hover{
+	color:green; /* Change text color on hover */
+}
+
+.like-text {
+	font-size: small;
+	margin-left: 10px;
+}
+.click:hover{
+	color:#0074d9;
+}
+
+.Top{
+	margin-top: 100px;
+}
+.custom-button {
+	background-color: #0074d9; /* Background color */
+	color: #fff;             /* Text color */
+	padding: 10px 20px;       /* Padding around the content */
+	border: none;            /* Remove the default button border */
+	border-radius: 5px;      /* Rounded corners */
+	cursor: pointer;         /* Show a pointer cursor on hover */
+	font-size: 14px;        
+  }
+  
+  /* Style the button on hover */
+  .custom-button:hover {
+	background-color:green /* Change background color on hover */
+  }

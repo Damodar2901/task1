@@ -1,0 +1,21 @@
+
+.con{
+    border-radius: 10px;
+    background-color:rgba(9, 70, 240, 0.068);
+    width:680px;
+    margin-left: 2em;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+    margin-top: 100px;
+    
+    
+}
+center{
+    display: flex;
+    justify-content: center;
+}
+
+
+  
+ 

@@ -18,6 +18,7 @@ export default class Comp1 extends Component {
       <div>
 
 
+
         <center>
             <div className='con'>
             <Comp2 image={this.state.image}/>
